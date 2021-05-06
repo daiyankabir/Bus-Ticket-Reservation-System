@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="l_source" min="-2" pref="54" max="-2" attributes="0"/>
+                                      <Component id="l_fair" alignment="0" min="-2" pref="54" max="-2" attributes="0"/>
+                                      <Component id="l_busID" alignment="0" min="-2" pref="54" max="-2" attributes="0"/>
+                                      <Component id="l_name" alignment="0" min="-2" pref="54" max="-2" attributes="0"/>
+                                      <Component id="l_type" alignment="0" min="-2" pref="54" max="-2" attributes="0"/>
+                                      <Component id="l_arrival" alignment="0" min="-2" pref="54" max="-2" attributes="0"/>
+                                      <Component id="l_destination" alignment="0" pref="72" max="32767" attributes="0"/>
+                                      <Component id="l_departure" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="t_destination" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="t_departure" max="32767" attributes="0"/>
+                                      <Component id="t_arrival" max="32767" attributes="0"/>
+                                      <Component id="t_type" max="32767" attributes="0"/>
+                                      <Component id="t_busID" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="t_name" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="t_source" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="t_fare" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="l_seatsAvailable" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="t_seatsAvailable" pref="124" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="b_add" min="-2" pref="129" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="l_date" min="-2" pref="54" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="t_date" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="t_update" min="-2" pref="129" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="t_delete" min="-2" pref="129" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="b_back" min="-2" pref="122" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jScrollPane1" min="-2" pref="990" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="t_busID" max="32767" attributes="0"/>
+                              <Component id="l_busID" pref="26" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="l_name" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="t_name" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="l_source" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="t_source" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="l_destination" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="t_destination" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="l_type" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="t_type" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="l_departure" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="t_departure" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="l_arrival" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="t_arrival" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="l_seatsAvailable" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="t_seatsAvailable" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="l_fair" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="t_fare" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="l_date" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="t_date" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jScrollPane1" min="-2" pref="443" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="56" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="t_update" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                      <Component id="t_delete" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                      <Component id="b_add" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                      <Component id="b_back" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="l_seatsAvailable">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Seats Available"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="l_name">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="l_source">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Source"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="l_destination">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Destination"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="l_fair">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fare"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="l_busID">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bus ID"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="l_departure">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Departure"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="l_arrival">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Arrival"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="l_type">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Type"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="t_busID">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="t_busIDActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="t_name">
+        </Component>
+        <Component class="javax.swing.JTextField" name="t_source">
+        </Component>
+        <Component class="javax.swing.JTextField" name="t_destination">
+        </Component>
+        <Component class="javax.swing.JTextField" name="t_type">
+        </Component>
+        <Component class="javax.swing.JTextField" name="t_departure">
+        </Component>
+        <Component class="javax.swing.JTextField" name="t_arrival">
+        </Component>
+        <Component class="javax.swing.JTextField" name="t_seatsAvailable">
+        </Component>
+        <Component class="javax.swing.JTextField" name="t_fare">
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="table_busDetails">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="10" rowCount="0">
+                    <Column editable="true" title="Bus ID" type="java.lang.Object"/>
+                    <Column editable="true" title="Bus Name" type="java.lang.Object"/>
+                    <Column editable="true" title="Source" type="java.lang.Object"/>
+                    <Column editable="true" title="Destination" type="java.lang.Object"/>
+                    <Column editable="true" title="Type" type="java.lang.Object"/>
+                    <Column editable="true" title="Departure" type="java.lang.Object"/>
+                    <Column editable="true" title="Arrival" type="java.lang.Object"/>
+                    <Column editable="true" title="Seats Available" type="java.lang.Object"/>
+                    <Column editable="true" title="Fair" type="java.lang.Object"/>
+                    <Column editable="true" title="Date" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="table_busDetailsMouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="t_update">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="UPDATE"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="t_updateActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="t_delete">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DELETE"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="t_deleteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="b_add">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ADD"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b_addActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="b_back">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="BACK"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b_backActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="l_date">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Date"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="t_date">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
